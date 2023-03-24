@@ -1,0 +1,37 @@
+.section-2 {
+  background-color: #50579f;
+  padding: 50px;
+  width: 100%vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.container-section-2 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 21px;
+  border-radius: 3px;
+  text-align: justify;
+  width: 100%;
+  height: 800px;
+}
+
+.section-2 h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #42ab77;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}

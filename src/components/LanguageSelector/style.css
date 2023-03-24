@@ -1,0 +1,43 @@
+/* style.css */
+
+.LanguageSelector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.LanguageSelector label {
+  margin-right: 10px;
+}
+
+.LanguageSelector select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+.LanguageSelector select:hover {
+  border-color: #666;
+}
+
+.LanguageSelector select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.LanguageSelector select option {
+  font-size: 16px;
+}
+
+.LanguageSelector select option:first-child {
+  color: #aaa;
+}
+
+.LanguageSelector select option:not(:first-child):hover {
+  background-color: #f7f7f7;
+}
